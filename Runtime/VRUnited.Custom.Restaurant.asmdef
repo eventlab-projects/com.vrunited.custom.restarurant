@@ -1,0 +1,19 @@
+{
+    "name": "VRUnited.Custom.Restaurant",
+    "rootNamespace": "",
+    "references": [
+        "GUID:707846450004269438d1a41ff342c945",
+        "GUID:57c32fc907df0f54e8e6e8f0d2488336",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:831409e8f9d13b5479a3baef9822ad34"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
