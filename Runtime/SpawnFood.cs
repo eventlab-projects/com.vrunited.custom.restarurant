@@ -16,8 +16,8 @@ public class SpawnFood : MonoBehaviour
     {
         QuickVRInteractionManager interactionManager = QuickSingletonManager.GetInstance<QuickVRInteractionManager>();
 
-        interactionManager.GetVRInteractorHandLeft().EnableInteractorGrab(true);
-        interactionManager.GetVRInteractorHandRight().EnableInteractorGrab(true);
+        interactionManager.GetVRInteractorHandLeft().EnableInteractorGrabDirect(true);
+        interactionManager.GetVRInteractorHandRight().EnableInteractorGrabDirect(true);
 
         foreach (XRGrabInteractable interactable in FindObjectsOfType<XRGrabInteractable>())
         {
